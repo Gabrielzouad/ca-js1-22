@@ -1,0 +1,57 @@
+.heading {
+  width: 100%;
+}
+.heading a {
+  text-decoration: none;
+  font-size: 2em;
+  margin: 10px;
+  text-transform: uppercase;
+}
+.error {
+  color: red;
+  text-decoration: underline;
+}
+
+form {
+  max-width: 800px;
+  width: 90%;
+  background-color: lightgrey;
+  padding: 42px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 25px 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+textarea {
+  height: 100px;
+  width: 100%;
+  outline: none;
+  box-sizing: border-box;
+}
+textarea ::-webkit-scrollbar {
+  width: 4px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}

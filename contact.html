@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <header>
+    <div class="heading">
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+  <body>
+    <div id="contactForm">
+      <form onsubmit="event.preventDefault(); validate();">
+        <h1>Contact us</h1>
+
+        <p id="sent"></p>
+
+        <label for="name">Name</label>
+        <input type="text" id="nameInput" placeholder="Your name" />
+        <p class="error"></p>
+
+        <label for="email">Email</label>
+        <input type="text" id="emailInput" placeholder="Your Email" />
+        <p class="error"></p>
+
+        <label for="address">Address</label>
+        <input type="text" id="addressInput" placeholder="Your address" />
+        <p class="error"></p>
+
+        <label for="message">Message</label>
+        <textarea id="messageInput" placeholder="Your message" rows="6"></textarea>
+        <p class="error"></p>
+
+        <input type="submit" value="Send" />
+      </form>
+    </div>
+    <script src="js/contact.js"></script>
+  </body>
+</html>

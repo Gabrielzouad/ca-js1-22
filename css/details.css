@@ -1,0 +1,50 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
+}
+.heading {
+  width: 100%;
+}
+.heading a {
+  text-decoration: none;
+  font-size: 2em;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.content {
+  width: 75%;
+  background-color: grey;
+  padding: 20px;
+  margin: 0px auto;
+}
+
+.championDetails {
+  margin: 10px;
+  text-align: center;
+}
+.championDetails h1 {
+  text-transform: uppercase;
+}
+
+.championDetails img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.abilities {
+  display: flex;
+  margin: 10px;
+  background-color: darkgrey;
+}
+
+.abilities p {
+  padding: 5px;
+  text-align: center;
+}
+
+.spellName {
+  font-weight: bold;
+}
